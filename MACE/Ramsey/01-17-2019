@@ -1,0 +1,30 @@
+Week 1
+# Ramsey's Weekly Activity Report - Thursday Jan 17. 2019
+
+### Legend
+ - [Objective](#objective)
+ - [Work I Did](#work-i-did)
+ - [Follow up](#follow-up)
+
+### Big Three
+
+- Deployed POSTGRESQL on Docker with pgAdmin GUI
+
+- Collated 1GB of Network GPSXML Data and 1GB of PCAP Data
+
+- Exported GPSXML Data to Google Earth 3D KMZ to Map Network Devices
+
+### Objective
+
+Proof-of-Concept Precise Geolocation of Live Network Devices in the Vicinity
+
+### Work I Did
+
+Assembled Network Scanner with Raspberry Pi, BU-353S4 GPS USB Module, and Panda N600 Dual Band Wirless N USB Adapter with Dual 5dBi Antennas.
+Deployed Kali Linux on the box and configured Kismet. Allowed active GPS-enabled Monitor Mode scanning for a period of 48 Hours to collect sample data. 
+Converted associated GPS files to Google Earth KMS format to visualize the datapoints as geolocated nodes.
+
+### Follow up
+
+- Establish Parameters of Accomplishing Device ID
+- Test Pipelining of Live Data to POSTGRESQL Docker
